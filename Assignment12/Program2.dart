@@ -5,7 +5,6 @@ row = 3
 1 2 3 
  */
 import 'dart:io';
-int n=1;
 void main(){
   int row = int.parse(stdin.readLineSync()!);
   for(int i=1;i <= row;i++){
